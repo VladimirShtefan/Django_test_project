@@ -4,10 +4,6 @@ from django.utils.translation import gettext_lazy as _
 from phonenumber_field.modelfields import PhoneNumberField
 
 
-# class User(AbstractUser):
-#     pass
-
-
 class Resume(models.Model):
     class Status(models.IntegerChoices):
         looking = 1, 'В активном поиске'
