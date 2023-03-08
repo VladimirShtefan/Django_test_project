@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django-test-project"
+version = "0.1.0"
+description = ""
+authors = ["VladmimirShtefan <shtefanvladimir14@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_test_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.14.0"
+django-phonenumber-field = "^7.0.2"
+drf-spectacular = "^0.26.0"
+phonenumbers = "^8.13.7"
+pytest = "^7.2.2"
+pytest-factoryboy = "^2.5.1"
+pytest-django = "^4.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
